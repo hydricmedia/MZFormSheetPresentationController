@@ -15,7 +15,7 @@
 		6D5655571C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D56553E1C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D5655581C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D56553F1C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.m */; };
 		6D5655591C111B4E001B734C /* MZFormSheetPresentationContentSizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5655401C111B4E001B734C /* MZFormSheetPresentationContentSizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D56555A1C111B4E001B734C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5655411C111B4E001B734C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D56555A1C111B4E001B734C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5655411C111B4E001B734C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */; };
 		6D56555B1C111B4E001B734C /* MZFormSheetPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5655421C111B4E001B734C /* MZFormSheetPresentationController.m */; };
 		6D56555C1C111B4E001B734C /* MZFormSheetPresentationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5655431C111B4E001B734C /* MZFormSheetPresentationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D56555D1C111B4E001B734C /* MZFormSheetPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5655441C111B4E001B734C /* MZFormSheetPresentationViewController.m */; };
@@ -126,6 +126,8 @@
 		6D237E411C111AF400612C2E /* MZFormSheetPresentationController */ = {
 			isa = PBXGroup;
 			children = (
+				6D237E421C111AF400612C2E /* MZFormSheetPresentationController.h */,
+				6D5655421C111B4E001B734C /* MZFormSheetPresentationController.m */,
 				6D56553A1C111B4E001B734C /* MZBlurEffectAdapter.h */,
 				6D56553B1C111B4E001B734C /* MZBlurEffectAdapter.m */,
 				6D56553C1C111B4E001B734C /* MZFormSheetContentSizingNavigationController.h */,
@@ -134,7 +136,6 @@
 				6D56553F1C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.m */,
 				6D5655401C111B4E001B734C /* MZFormSheetPresentationContentSizing.h */,
 				6D5655411C111B4E001B734C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */,
-				6D5655421C111B4E001B734C /* MZFormSheetPresentationController.m */,
 				6D5655431C111B4E001B734C /* MZFormSheetPresentationViewController.h */,
 				6D5655441C111B4E001B734C /* MZFormSheetPresentationViewController.m */,
 				6D5655451C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */,
@@ -151,7 +152,6 @@
 				6D5655501C111B4E001B734C /* MZTransition.m */,
 				6D5655511C111B4E001B734C /* UIViewController+TargetViewController.h */,
 				6D5655521C111B4E001B734C /* UIViewController+TargetViewController.m */,
-				6D237E421C111AF400612C2E /* MZFormSheetPresentationController.h */,
 				6D237E441C111AF400612C2E /* Info.plist */,
 			);
 			path = MZFormSheetPresentationController;
@@ -187,7 +187,6 @@
 				6D5655591C111B4E001B734C /* MZFormSheetPresentationContentSizing.h in Headers */,
 				6D5655681C111B4E001B734C /* MZTransition.h in Headers */,
 				6D56555C1C111B4E001B734C /* MZFormSheetPresentationViewController.h in Headers */,
-				6D56555A1C111B4E001B734C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h in Headers */,
 				6D56555F1C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimator.h in Headers */,
 				6D237E431C111AF400612C2E /* MZFormSheetPresentationController.h in Headers */,
 				6D5655551C111B4E001B734C /* MZFormSheetContentSizingNavigationController.h in Headers */,
@@ -197,6 +196,7 @@
 				6D5655611C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveAnimator.h in Headers */,
 				6D5655641C111B4E001B734C /* MZFormSheetPresentationViewControllerSegue.h in Headers */,
 				6D5655531C111B4E001B734C /* MZBlurEffectAdapter.h in Headers */,
+				6D56555A1C111B4E001B734C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
