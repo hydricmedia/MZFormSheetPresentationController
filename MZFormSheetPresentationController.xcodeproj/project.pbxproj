@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D237E431C111AF400612C2E /* MZFormSheetPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D237E421C111AF400612C2E /* MZFormSheetPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D5655531C111B4E001B734C /* MZBlurEffectAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D56553A1C111B4E001B734C /* MZBlurEffectAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D5655541C111B4E001B734C /* MZBlurEffectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D56553B1C111B4E001B734C /* MZBlurEffectAdapter.m */; };
+		6D5655551C111B4E001B734C /* MZFormSheetContentSizingNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D56553C1C111B4E001B734C /* MZFormSheetContentSizingNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D5655561C111B4E001B734C /* MZFormSheetContentSizingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D56553D1C111B4E001B734C /* MZFormSheetContentSizingNavigationController.m */; };
+		6D5655571C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D56553E1C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D5655581C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D56553F1C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.m */; };
+		6D5655591C111B4E001B734C /* MZFormSheetPresentationContentSizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5655401C111B4E001B734C /* MZFormSheetPresentationContentSizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D56555A1C111B4E001B734C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5655411C111B4E001B734C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D56555B1C111B4E001B734C /* MZFormSheetPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5655421C111B4E001B734C /* MZFormSheetPresentationController.m */; };
+		6D56555C1C111B4E001B734C /* MZFormSheetPresentationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5655431C111B4E001B734C /* MZFormSheetPresentationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D56555D1C111B4E001B734C /* MZFormSheetPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5655441C111B4E001B734C /* MZFormSheetPresentationViewController.m */; };
+		6D56555E1C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5655451C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D56555F1C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5655461C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D5655601C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5655471C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimator.m */; };
+		6D5655611C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5655481C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D5655621C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5655491C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */; };
+		6D5655631C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D56554A1C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D5655641C111B4E001B734C /* MZFormSheetPresentationViewControllerSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D56554B1C111B4E001B734C /* MZFormSheetPresentationViewControllerSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D5655651C111B4E001B734C /* MZFormSheetPresentationViewControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D56554C1C111B4E001B734C /* MZFormSheetPresentationViewControllerSegue.m */; };
+		6D5655661C111B4E001B734C /* MZMethodSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D56554D1C111B4E001B734C /* MZMethodSwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D5655671C111B4E001B734C /* MZMethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D56554E1C111B4E001B734C /* MZMethodSwizzler.m */; };
+		6D5655681C111B4E001B734C /* MZTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D56554F1C111B4E001B734C /* MZTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D5655691C111B4E001B734C /* MZTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5655501C111B4E001B734C /* MZTransition.m */; };
+		6D56556A1C111B4E001B734C /* UIViewController+TargetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5655511C111B4E001B734C /* UIViewController+TargetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D56556B1C111B4E001B734C /* UIViewController+TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5655521C111B4E001B734C /* UIViewController+TargetViewController.m */; };
+		6D56556D1C111B5A001B734C /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 6D56556C1C111B5A001B734C /* Cartfile */; };
+		6D5655701C111BA5001B734C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D56556F1C111BA5001B734C /* UIKit.framework */; };
+		6D5655721C111BAB001B734C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5655711C111BAB001B734C /* Foundation.framework */; };
+		6D5655741C111DD0001B734C /* MZAppearance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5655731C111DD0001B734C /* MZAppearance.framework */; };
+		6D5655781C111E3E001B734C /* MZAppearance.framework.dSYM in Copy dSYMS */ = {isa = PBXBuildFile; fileRef = 6D5655771C111E3E001B734C /* MZAppearance.framework.dSYM */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6D5655761C111E23001B734C /* Copy dSYMS */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				6D5655781C111E3E001B734C /* MZAppearance.framework.dSYM in Copy dSYMS */,
+			);
+			name = "Copy dSYMS";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6D237E3F1C111AF400612C2E /* MZFormSheetPresentationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZFormSheetPresentationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D237E421C111AF400612C2E /* MZFormSheetPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationController.h; sourceTree = "<group>"; };
+		6D237E441C111AF400612C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D56553A1C111B4E001B734C /* MZBlurEffectAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBlurEffectAdapter.h; sourceTree = "<group>"; };
+		6D56553B1C111B4E001B734C /* MZBlurEffectAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBlurEffectAdapter.m; sourceTree = "<group>"; };
+		6D56553C1C111B4E001B734C /* MZFormSheetContentSizingNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetContentSizingNavigationController.h; sourceTree = "<group>"; };
+		6D56553D1C111B4E001B734C /* MZFormSheetContentSizingNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetContentSizingNavigationController.m; sourceTree = "<group>"; };
+		6D56553E1C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetContentSizingNavigationControllerAnimator.h; sourceTree = "<group>"; };
+		6D56553F1C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetContentSizingNavigationControllerAnimator.m; sourceTree = "<group>"; };
+		6D5655401C111B4E001B734C /* MZFormSheetPresentationContentSizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationContentSizing.h; sourceTree = "<group>"; };
+		6D5655411C111B4E001B734C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MZFormSheetPresentationController Swift Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		6D5655421C111B4E001B734C /* MZFormSheetPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationController.m; sourceTree = "<group>"; };
+		6D5655431C111B4E001B734C /* MZFormSheetPresentationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewController.h; sourceTree = "<group>"; };
+		6D5655441C111B4E001B734C /* MZFormSheetPresentationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewController.m; sourceTree = "<group>"; };
+		6D5655451C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
+		6D5655461C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerAnimator.h; sourceTree = "<group>"; };
+		6D5655471C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewControllerAnimator.m; sourceTree = "<group>"; };
+		6D5655481C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerInteractiveAnimator.h; sourceTree = "<group>"; };
+		6D5655491C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewControllerInteractiveAnimator.m; sourceTree = "<group>"; };
+		6D56554A1C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerInteractiveTransitioning.h; sourceTree = "<group>"; };
+		6D56554B1C111B4E001B734C /* MZFormSheetPresentationViewControllerSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerSegue.h; sourceTree = "<group>"; };
+		6D56554C1C111B4E001B734C /* MZFormSheetPresentationViewControllerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewControllerSegue.m; sourceTree = "<group>"; };
+		6D56554D1C111B4E001B734C /* MZMethodSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMethodSwizzler.h; sourceTree = "<group>"; };
+		6D56554E1C111B4E001B734C /* MZMethodSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMethodSwizzler.m; sourceTree = "<group>"; };
+		6D56554F1C111B4E001B734C /* MZTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTransition.h; sourceTree = "<group>"; };
+		6D5655501C111B4E001B734C /* MZTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTransition.m; sourceTree = "<group>"; };
+		6D5655511C111B4E001B734C /* UIViewController+TargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TargetViewController.h"; sourceTree = "<group>"; };
+		6D5655521C111B4E001B734C /* UIViewController+TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TargetViewController.m"; sourceTree = "<group>"; };
+		6D56556C1C111B5A001B734C /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		6D56556F1C111BA5001B734C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D5655711C111BAB001B734C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D5655731C111DD0001B734C /* MZAppearance.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MZAppearance.framework; path = Carthage/Build/iOS/MZAppearance.framework; sourceTree = "<group>"; };
+		6D5655771C111E3E001B734C /* MZAppearance.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = MZAppearance.framework.dSYM; path = Carthage/Build/iOS/MZAppearance.framework.dSYM; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D237E3B1C111AF400612C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5655741C111DD0001B734C /* MZAppearance.framework in Frameworks */,
+				6D5655721C111BAB001B734C /* Foundation.framework in Frameworks */,
+				6D5655701C111BA5001B734C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D237E351C111AF400612C2E = {
+			isa = PBXGroup;
+			children = (
+				6D56556C1C111B5A001B734C /* Cartfile */,
+				6D237E411C111AF400612C2E /* MZFormSheetPresentationController */,
+				6D56556E1C111B98001B734C /* Frameworks */,
+				6D5655791C111E47001B734C /* dSYMs */,
+				6D237E401C111AF400612C2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D237E401C111AF400612C2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D237E3F1C111AF400612C2E /* MZFormSheetPresentationController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D237E411C111AF400612C2E /* MZFormSheetPresentationController */ = {
+			isa = PBXGroup;
+			children = (
+				6D56553A1C111B4E001B734C /* MZBlurEffectAdapter.h */,
+				6D56553B1C111B4E001B734C /* MZBlurEffectAdapter.m */,
+				6D56553C1C111B4E001B734C /* MZFormSheetContentSizingNavigationController.h */,
+				6D56553D1C111B4E001B734C /* MZFormSheetContentSizingNavigationController.m */,
+				6D56553E1C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.h */,
+				6D56553F1C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.m */,
+				6D5655401C111B4E001B734C /* MZFormSheetPresentationContentSizing.h */,
+				6D5655411C111B4E001B734C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */,
+				6D5655421C111B4E001B734C /* MZFormSheetPresentationController.m */,
+				6D5655431C111B4E001B734C /* MZFormSheetPresentationViewController.h */,
+				6D5655441C111B4E001B734C /* MZFormSheetPresentationViewController.m */,
+				6D5655451C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */,
+				6D5655461C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimator.h */,
+				6D5655471C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimator.m */,
+				6D5655481C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveAnimator.h */,
+				6D5655491C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */,
+				6D56554A1C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h */,
+				6D56554B1C111B4E001B734C /* MZFormSheetPresentationViewControllerSegue.h */,
+				6D56554C1C111B4E001B734C /* MZFormSheetPresentationViewControllerSegue.m */,
+				6D56554D1C111B4E001B734C /* MZMethodSwizzler.h */,
+				6D56554E1C111B4E001B734C /* MZMethodSwizzler.m */,
+				6D56554F1C111B4E001B734C /* MZTransition.h */,
+				6D5655501C111B4E001B734C /* MZTransition.m */,
+				6D5655511C111B4E001B734C /* UIViewController+TargetViewController.h */,
+				6D5655521C111B4E001B734C /* UIViewController+TargetViewController.m */,
+				6D237E421C111AF400612C2E /* MZFormSheetPresentationController.h */,
+				6D237E441C111AF400612C2E /* Info.plist */,
+			);
+			path = MZFormSheetPresentationController;
+			sourceTree = "<group>";
+		};
+		6D56556E1C111B98001B734C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D5655731C111DD0001B734C /* MZAppearance.framework */,
+				6D5655711C111BAB001B734C /* Foundation.framework */,
+				6D56556F1C111BA5001B734C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D5655791C111E47001B734C /* dSYMs */ = {
+			isa = PBXGroup;
+			children = (
+				6D5655771C111E3E001B734C /* MZAppearance.framework.dSYM */,
+			);
+			name = dSYMs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D237E3C1C111AF400612C2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5655631C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h in Headers */,
+				6D56556A1C111B4E001B734C /* UIViewController+TargetViewController.h in Headers */,
+				6D5655591C111B4E001B734C /* MZFormSheetPresentationContentSizing.h in Headers */,
+				6D5655681C111B4E001B734C /* MZTransition.h in Headers */,
+				6D56555C1C111B4E001B734C /* MZFormSheetPresentationViewController.h in Headers */,
+				6D56555A1C111B4E001B734C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h in Headers */,
+				6D56555F1C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimator.h in Headers */,
+				6D237E431C111AF400612C2E /* MZFormSheetPresentationController.h in Headers */,
+				6D5655551C111B4E001B734C /* MZFormSheetContentSizingNavigationController.h in Headers */,
+				6D56555E1C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h in Headers */,
+				6D5655571C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.h in Headers */,
+				6D5655661C111B4E001B734C /* MZMethodSwizzler.h in Headers */,
+				6D5655611C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveAnimator.h in Headers */,
+				6D5655641C111B4E001B734C /* MZFormSheetPresentationViewControllerSegue.h in Headers */,
+				6D5655531C111B4E001B734C /* MZBlurEffectAdapter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D237E3E1C111AF400612C2E /* MZFormSheetPresentationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D237E471C111AF400612C2E /* Build configuration list for PBXNativeTarget "MZFormSheetPresentationController" */;
+			buildPhases = (
+				6D237E3A1C111AF400612C2E /* Sources */,
+				6D237E3B1C111AF400612C2E /* Frameworks */,
+				6D237E3C1C111AF400612C2E /* Headers */,
+				6D237E3D1C111AF400612C2E /* Resources */,
+				6D5655751C111DEE001B734C /* Copy Carthage Frameworks */,
+				6D5655761C111E23001B734C /* Copy dSYMS */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZFormSheetPresentationController;
+			productName = MZFormSheetPresentationController;
+			productReference = 6D237E3F1C111AF400612C2E /* MZFormSheetPresentationController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D237E361C111AF400612C2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					6D237E3E1C111AF400612C2E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6D237E391C111AF400612C2E /* Build configuration list for PBXProject "MZFormSheetPresentationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D237E351C111AF400612C2E;
+			productRefGroup = 6D237E401C111AF400612C2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D237E3E1C111AF400612C2E /* MZFormSheetPresentationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D237E3D1C111AF400612C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D56556D1C111B5A001B734C /* Cartfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D5655751C111DEE001B734C /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/MZAppearance.framework",
+			);
+			name = "Copy Carthage Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D237E3A1C111AF400612C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5655601C111B4E001B734C /* MZFormSheetPresentationViewControllerAnimator.m in Sources */,
+				6D56555D1C111B4E001B734C /* MZFormSheetPresentationViewController.m in Sources */,
+				6D5655621C111B4E001B734C /* MZFormSheetPresentationViewControllerInteractiveAnimator.m in Sources */,
+				6D5655691C111B4E001B734C /* MZTransition.m in Sources */,
+				6D5655671C111B4E001B734C /* MZMethodSwizzler.m in Sources */,
+				6D5655581C111B4E001B734C /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */,
+				6D5655561C111B4E001B734C /* MZFormSheetContentSizingNavigationController.m in Sources */,
+				6D56555B1C111B4E001B734C /* MZFormSheetPresentationController.m in Sources */,
+				6D56556B1C111B4E001B734C /* UIViewController+TargetViewController.m in Sources */,
+				6D5655541C111B4E001B734C /* MZBlurEffectAdapter.m in Sources */,
+				6D5655651C111B4E001B734C /* MZFormSheetPresentationViewControllerSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6D237E451C111AF400612C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D237E461C111AF400612C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D237E481C111AF400612C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MZFormSheetPresentationController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m1entus.MZFormSheetPresentationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6D237E491C111AF400612C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MZFormSheetPresentationController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m1entus.MZFormSheetPresentationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D237E391C111AF400612C2E /* Build configuration list for PBXProject "MZFormSheetPresentationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D237E451C111AF400612C2E /* Debug */,
+				6D237E461C111AF400612C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D237E471C111AF400612C2E /* Build configuration list for PBXNativeTarget "MZFormSheetPresentationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D237E481C111AF400612C2E /* Debug */,
+				6D237E491C111AF400612C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D237E361C111AF400612C2E /* Project object */;
+}
