@@ -27,7 +27,7 @@
 #import <objc/runtime.h>
 #import "MZFormSheetPresentationController.h"
 
-CGFloat const MZFormSheetPresentationViewControllerAnimatorDefaultTransitionDuration = 0.35;
+CGFloat const MZFormSheetPresentationViewControllerAnimatorDefaultTransitionDuration = 0.2;
 
 @implementation MZFormSheetPresentationViewControllerAnimator
 
