@@ -37,22 +37,7 @@
 		6D5655701C111BA5001B734C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D56556F1C111BA5001B734C /* UIKit.framework */; };
 		6D5655721C111BAB001B734C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5655711C111BAB001B734C /* Foundation.framework */; };
 		6D5655741C111DD0001B734C /* MZAppearance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5655731C111DD0001B734C /* MZAppearance.framework */; };
-		6D5655781C111E3E001B734C /* MZAppearance.framework.dSYM in Copy dSYMS */ = {isa = PBXBuildFile; fileRef = 6D5655771C111E3E001B734C /* MZAppearance.framework.dSYM */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		6D5655761C111E23001B734C /* Copy dSYMS */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 16;
-			files = (
-				6D5655781C111E3E001B734C /* MZAppearance.framework.dSYM in Copy dSYMS */,
-			);
-			name = "Copy dSYMS";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6D237E3F1C111AF400612C2E /* MZFormSheetPresentationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZFormSheetPresentationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,8 +196,6 @@
 				6D237E3B1C111AF400612C2E /* Frameworks */,
 				6D237E3C1C111AF400612C2E /* Headers */,
 				6D237E3D1C111AF400612C2E /* Resources */,
-				6D5655751C111DEE001B734C /* Copy Carthage Frameworks */,
-				6D5655761C111E23001B734C /* Copy dSYMS */,
 			);
 			buildRules = (
 			);
@@ -263,24 +246,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6D5655751C111DEE001B734C /* Copy Carthage Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/MZAppearance.framework",
-			);
-			name = "Copy Carthage Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D237E3A1C111AF400612C2E /* Sources */ = {
